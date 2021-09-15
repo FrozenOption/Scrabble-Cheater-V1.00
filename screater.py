@@ -1,4 +1,5 @@
-#Scrabble Cheater V1.00
+#Screater 1.00
+#Scrabble Cheating Script
 #Written by: FrozenOption
 
 import requests
@@ -14,7 +15,6 @@ def find_number_of_words():
 		print(number_of_words.upper() + " :")
 		print("->->->->->->->->->->-> \n")
 		found = True
-
 	except:
 		print("NO RESULT FOUND!!")
 		found = False
@@ -33,7 +33,6 @@ def display_words():
 				if len(word)==x:
 					set.append(word)
 			print(' | '.join(set))
-
 while True:
 
 	letters = input("Write your letters : ").strip()
@@ -49,4 +48,3 @@ while True:
 	print("\n")
 	print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 	print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n")
-
